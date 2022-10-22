@@ -1,0 +1,38 @@
+//create array list and add some elements
+List<String> list_Strings = new ArrayList<String>();
+  list_Strings.add("Red");
+  
+//ITERATE THROUGH ALL ELEMENTS
+for (String element : list_Strings) {
+    System.out.println(element);
+    }
+    
+//INSERT AN ELEMENT INTO THE ARRAY LIST AT THE FIRST POSITION
+list_Strings.add(0, "Pink");
+  list_Strings.add(5, "Yellow");
+  
+//RETRIEVE AN ELEMENT AT THE SPECIFIC INDEX
+String element = list_Strings.get(0);
+
+//UPDATE SPECIFIC ARRAY ELEMENT WITH THE GIVEN ELEMENT
+list_Strings.set(2, "Yellow");
+
+//REMOVE THE THIRD ELEMENT OF THE ARRAY
+list_Strings.remove(2);
+
+//TO SEARCH AN ELEMENT IN AN ARRAYLIST
+if (list_Strings.contains("Red")) {
+    System.out.println("Found the element");
+    }
+    
+//SORT A GIVEN ARRAY LIST
+Collections.sort(list_Strings);
+
+//COPY ONE ARRAYLIST TO ANOTHER
+// Copy List2 to List1
+  Collections.copy(List1, List2);      // if both the list has same number of elements it works
+  
+//TO SHUFFLE ELEMENTS IN AN ARRAYLIST
+Collections.shuffle(list_Strings);
+
+//
