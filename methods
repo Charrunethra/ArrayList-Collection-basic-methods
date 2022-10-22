@@ -36,3 +36,24 @@ Collections.sort(list_Strings);
 Collections.shuffle(list_Strings);
 
 //
+
+//To clone arrayList to another arrayList
+ArrayList<String> newc1 = (ArrayList<String>)c1.clone();
+
+//EMPTY AN ARRAYLIST
+c1.removeAll(c1);
+
+//TO CHECK ARRAYLIST IS EMPTY OR NOT
+c1.isEmpty()
+
+//TRIM THE CAPACITY OF THE ARRAYLIST THE CURRENT LIST SIZE
+c1.trimToSize();
+
+//INCREASE THE SIZE OF THE ARRAYLIST
+//Increase capacity to 6
+          c1.ensureCapacity(6);
+          
+//REPLACING THE ELEMENT
+color.set(1,new_color);
+
+//
