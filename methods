@@ -35,7 +35,24 @@ Collections.sort(list_Strings);
 //TO SHUFFLE ELEMENTS IN AN ARRAYLIST
 Collections.shuffle(list_Strings);
 
-//
+//REVERSE THE ARRAYLIST
+Collections.reverse(list_Strings);
+
+//EXTRACT THE PORTION OF THE ARRAYLIST
+System.out.println("Original list: " + list_Strings);
+  List<String> sub_List = list_Strings.subList(0, 3);
+  System.out.println("List of first three elements: " + sub_List);
+
+//COMPARE TWO ARRAYLISTS
+for (String e : c1)
+             c3.add(c2.contains(e) ? "Yes" : "No");
+             
+//SWAP TWO ELEMENTS
+Collections.swap(c1, 0, 2);
+
+//JOIN TWO ARRAYLISTS
+a.addAll(c1);
+        a.addAll(c2);  // or c1.addAll(c2)--> it will be stored in c1 and print
 
 //To clone arrayList to another arrayList
 ArrayList<String> newc1 = (ArrayList<String>)c1.clone();
@@ -56,4 +73,9 @@ c1.trimToSize();
 //REPLACING THE ELEMENT
 color.set(1,new_color);
 
-//
+//PRINT ELEMENTS OF ARRAYLIST USING POSITIONS OF THE ELEMENT
+for (int index = 0; index < no_of_elements; index++)
+   System.out.println(c1.get(index));
+ }
+ 
+ 
