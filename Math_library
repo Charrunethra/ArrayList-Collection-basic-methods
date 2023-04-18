@@ -1,0 +1,7 @@
+//Math function
+Math.E and Math.PI modifier is static double...
+Math.E --> It will return the Euler’s Number E, which is approximately equal to 2.71828
+Math.PI --> This property will return the Pie Value, which is approximately equal to 3.14
+
+Link to study Math library/functions: 
+https://www.tutorialgateway.org/java-math-library/#:~:text=The%20Java%20Math%20Library%20provides,%2C%20logarithmic%2C%20and%20trigonometric%20functions.
