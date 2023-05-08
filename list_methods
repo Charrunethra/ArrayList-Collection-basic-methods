@@ -78,4 +78,29 @@ for (int index = 0; index < no_of_elements; index++)
    System.out.println(c1.get(index));
  }
  
+//ARRAYS.ASLIST
+EG:
+String a[] = new String[] { "A", "B", "C", "D" };
+// Getting the list view of Array
+List<String> list = Arrays.asList(a);
+EG:
+ Integer a[] = new Integer[] { 10, 20, 30, 40 };
+ // Getting the list view of Array
+ List<Integer> list = Arrays.asList(a);
  
+ 
+ //LINK :  https://www.geeksforgeeks.org/arrays-aslist-method-in-java-with-examples/
+ // Creating Arrays of Integer type
+            Integer a[] = new Integer[] { 10, 20, 30, 40 };
+ 
+            // Getting the list view of Array
+            List<Integer> list = Arrays.asList(a);
+ 
+            // Adding another int to the list
+            // As Arrays.asList() returns fixed size     IMPORTANT
+            // list, we'll get
+            // java.lang.UnsupportedOperationException    IMPORTANT
+            list.add(50);
+ 
+            // Printing all the elements of list
+            System.out.println("The list is: " + list);
