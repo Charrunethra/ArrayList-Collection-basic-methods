@@ -104,3 +104,21 @@ EG:
  
             // Printing all the elements of list
             System.out.println("The list is: " + list);
+            
+//LINKEDLIST addFirst maethod in java
+Eg:
+import java.io.*;
+import java.util.LinkedList;
+  
+public class PrepBytes {
+    public static void main(String args[])
+    {
+        LinkedList<string> list = new LinkedList<string>();
+        list.add("Coding");
+        list.add("is");
+        list.add("Fun");
+        System.out.println("The list is: " + list);
+        list.addFirst("DSA");
+        System.out.println("The new List is: " + list);
+    }
+}
