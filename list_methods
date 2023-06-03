@@ -106,6 +106,9 @@ EG:
             System.out.println("The list is: " + list);
             
 //LINKEDLIST addFirst maethod in java
+
+https://www.prepbytes.com/blog/java/linkedlist-addfirst-method-in-java/#:~:text=Parameters%3A%20This%20method%20accepts%20a,the%20beginning%20of%20the%20LinkedList.
+
 Eg:
 import java.io.*;
 import java.util.LinkedList;
