@@ -2,6 +2,14 @@
 
 https://www.javatpoint.com/StringBuilder-class
 
+//STRINGBUILDER indexOf:
+
+https://www.geeksforgeeks.org/stringbuilder-indexof-method-in-java-with-examples/
+
+//STRINGBUILDER deleteCharAt
+
+https://www.tutorialspoint.com/java/lang/stringbuilder_deletecharat.htm#:~:text=The%20java%20StringBuilder%20deleteCharAt(),positions%20of%20the%20current%20sequence.
+
 //HOW TO SPLIT A STRING IN MANY WAYS
 
 https://codeahoy.com/q/6/How-to-split-a-String-in-Java#:~:text=To%20split%20a%20string%20by%20space%2C%20use%20%5C%5Cs%2B%20.,as%20space%2C%20tab%2C%20etc.
