@@ -1,0 +1,12 @@
+private, public, protected, default
+https://www.javatpoint.com/access-modifiers
+
+what is meant by abstract keyword in java
+The abstract keyword is a non-access modifier, used for classes and methods. 
+Class: An abstract class is a restricted class that cannot be used to create objects (to access it, it must be inherited from another class).
+
+What is abstract in Java with example?
+Abstract Class in Java - Javatpoint
+Abstraction in Java
+Abstraction is a process of hiding the implementation details and showing only functionality to the user. 
+Another way, it shows only essential things to the user and hides the internal details, for example, sending SMS where you type the text and send the message.
