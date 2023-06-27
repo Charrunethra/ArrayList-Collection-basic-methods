@@ -17,3 +17,5 @@ if s1 > s2, it returns positive number
 if s1 < s2, it returns negative number  
 if s1 == s2, it returns 0  
 https://www.javatpoint.com/java-string-compareto
+
+Priority queue works with HEAP DATA STRUCTURE
