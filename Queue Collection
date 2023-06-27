@@ -7,5 +7,13 @@ Important link about QUEUE in QUORA
 
 https://www.quora.com/Queue-integer-q-new-LinkedList-What-does-this-mean-in-Java
 
-PRIORITY QUEUE
+PRIORITY QUEUE:::
 https://www.geeksforgeeks.org/priority-queue-class-in-java/
+The order that the heap set up for the priority queue
+compareTo method::
+s1.compareTo(s2);
+Inside Algo: 
+if s1 > s2, it returns positive number  
+if s1 < s2, it returns negative number  
+if s1 == s2, it returns 0  
+https://www.javatpoint.com/java-string-compareto
