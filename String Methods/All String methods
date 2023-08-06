@@ -10,4 +10,10 @@ CODE:
 O/P: H
 
 codePointAt() 	#Returns the Unicode of the character at the specified index	 #int
-
+//Ascii and Unicode difference
+ASCII is a subset of Unicode and represents a limited range of characters primarily used in the English language. In contrast, Unicode is a more comprehensive encoding scheme that can represent characters from multiple languages and scripts, including mathematical symbols and other specialized characters.
+CODE:
+    String myStr = "Hello";
+    int result = myStr.codePointAt(0);
+    System.out.println(result);
+O/P: 72
