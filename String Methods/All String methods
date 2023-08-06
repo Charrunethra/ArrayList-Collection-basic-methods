@@ -1,2 +1,13 @@
 //All string methods to practice
 https://www.w3schools.com/java/java_ref_string.asp
+
+Method	   Description	                                             Return Type
+charAt() #Returns the character at the specified index (position)    #char
+CODE:
+    String str = "Hello";
+    char result = str.charAt(0);
+    System.out.println(result);
+O/P: H
+
+codePointAt() 	#Returns the Unicode of the character at the specified index	 #int
+
