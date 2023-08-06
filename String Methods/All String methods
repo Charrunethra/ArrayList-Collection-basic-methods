@@ -17,3 +17,19 @@ CODE:
     int result = myStr.codePointAt(0);
     System.out.println(result);
 O/P: 72
+
+codePointBefore()   #Returns the Unicode of the character before the specified index   #int
+CODE:
+    String myStr = "Hello";
+    int result = myStr.codePointBefore(1);
+    System.out.println(result);
+O/P: 72
+
+codePointCount()   #Returns the number of Unicode values found in a string.	  #int
+CODE:
+String myStr = "Hello";
+int result = myStr.codePointCount(0, 5);
+System.out.println(result);
+O/P: 5
+
+compareTo()	 #Compares two strings lexicographically	#int
