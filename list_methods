@@ -28,6 +28,9 @@ if (list_Strings.contains("Red")) {
 //SORT A GIVEN ARRAY LIST
 Collections.sort(list_Strings);
 
+//returns a Collection sorted in the Descending Order.
+Collections.sort(ArrayList, Collections.reverseOrder());
+
 //COPY ONE ARRAYLIST TO ANOTHER
 // Copy List2 to List1
   Collections.copy(List1, List2);      // if both the list has same number of elements it works
