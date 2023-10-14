@@ -1,0 +1,6 @@
+Java
+Stack<Integer> stack = new Stack<>();
+stack.peek(); // this method is in java
+
+C++
+stack.top(); // this method  is in C++
