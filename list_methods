@@ -20,6 +20,9 @@ list_Strings.set(2, "Yellow");
 //REMOVE THE THIRD ELEMENT OF THE ARRAY
 list_Strings.remove(2);
 
+// Remove all elements from the List
+        list.clear();
+
 //TO SEARCH AN ELEMENT IN AN ARRAYLIST
 if (list_Strings.contains("Red")) {
     System.out.println("Found the element");
