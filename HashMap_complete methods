@@ -1,4 +1,60 @@
 //Hash Map_complete methods basic
 https://www.geeksforgeeks.org/java-util-hashmap-in-java-with-examples/
+
 // How to get keys and values from a map
 https://stackabuse.com/java-how-to-get-keys-and-values-from-a-map/
+
+//Code learnt from the above link
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    
+		//Get Keys and Values(Entries) from Java Map
+		
+		Map<String, Integer> map1 = new HashMap<>();
+		map1.put("Charru", 21);
+		map1.put("Viswak", 16);
+		map1.put("Mahesh", 45);
+		map1.put("Ramesh", 50);
+		for(Map.Entry<String, Integer> pair : map1.entrySet()){
+		    System.out.println(String.format("Key (name) is: %s, Value (age) is : %s", pair.getKey(), pair.getValue()));
+		    //Here the 2nd %s or the %s acts as the 'toString' in java
+		}
+		System.out.println();
+		
+		//Get Keys and Values(Entries) from java Map with forEach()
+		
+		map1.forEach((k,  V) -> System.out.print(k + " : " + V + "\n"));
+		//Instead of using this, use a 'Consumer' where it just consume entire entries from the entrySet()
+		System.out.println();
+		map1.entrySet() 
+		.forEach((entry) -> System.out.print(entry.getKey() + " : " + entry.getValue() + "hey charru !!\n"));
+		System.out.println();
+		
+		//Get Keys from a Java map
+		
+		//Instead of entrySet, you can get keySet
+		System.out.println("Keys");
+		for(String key : map1.keySet()){
+		    System.out.println(key);
+		}
+		System.out.println();
+		
+		//Get Values from a Java map
+		
+		//we can use 'values()'
+		System.out.println("Values");
+		for(Integer value : map1.values()){
+		    System.out.println(value);
+		}
+		System.out.println();
+		
+		//Check if Map contains a Key -> use containsKey() method in HashMap
+		
+		boolean result = map1.containsKey(5);
+		System.out.println(result + "\n");
+		System.out.println("Thats all my dear charru \nCharru is meant for success and make parents proud");
+	}
+}
